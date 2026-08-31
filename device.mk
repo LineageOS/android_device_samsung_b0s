@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.b0s.rc
+    init.b0s.rc \
+    init.s5e9925.rgb.rc
 
 # NFC
 BOARD_HAVE_NXP_NFC := true

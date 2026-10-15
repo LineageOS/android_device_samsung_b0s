@@ -15,7 +15,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor
 
 # Camera (ID 52 -> telephoto; ID 54 -> second telephoto)
-$(call soong_config_set,samsungCameraVars,extra_ids,52,54)
+$(call soong_config_set,samsungCameraVars,extra_ids,52$(comma)54)
 
 # Display
 PRODUCT_PACKAGES += \
